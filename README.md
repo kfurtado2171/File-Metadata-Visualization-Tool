@@ -2,9 +2,17 @@
 
 Kyle Furtado
 
-University of Massachusetts Dartmouth - CIS 542 Project
+University of Massachusetts Dartmouth - CIS 542 Project (Fall 2023) 
 
 12/11/2023
+
+## Goal
+The primary goal of this project is to develop a tool that generates visual representations of metadata extracted from files in a selected directory. These visualizations will allow users to analyze a directory’s overall content at a quick glance. For instance, the organization of the directory will be exhibited, making it easier to search for files of interest. From a digital forensics perspective, this tool will provide insight on files and provide preliminary aid in evidence analysis, timeline reconstruction, identifying patterns/trends, and determining points of interest. It is important to note that this tool is not intended to single-handedly solve digital forensics investigations, but is rather meant to be the first step in looking at the overall structure and behavior of the files in a directory under analysis.
+
+## Scope
+This tool exists as a simple graphical user interface (GUI) that allows a user to select a directory from their device’s native file explorer, filter what file types to visualize, and then click to produce a variety of general data analysis visualizations. This tool does not look to implement any Artificial Intelligence or Machine Learning predictions on the directory. Thus, any anomaly, pattern, and correlation detections will have to be done manually by the user themselves.
+
+
 
 ## Getting Started
 1) Clone this repository onto your local machine.
